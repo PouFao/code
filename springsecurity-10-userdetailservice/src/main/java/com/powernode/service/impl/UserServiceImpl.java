@@ -21,6 +21,7 @@ public class UserServiceImpl implements UserDetailsService {
         SecurityUser securityUser=new SecurityUser();
         //测试测试
         System.out.println("你好3");
+        System.out.println("hello hot-fix");
         return securityUser;
     }
 }
