@@ -23,6 +23,7 @@ public class UserServiceImpl implements UserDetailsService {
         System.out.println("你好3");
         System.out.println("hello hot-fix");
         System.out.println("test master");
+        System.out.println("test hot-fix");
         return securityUser;
     }
 }
