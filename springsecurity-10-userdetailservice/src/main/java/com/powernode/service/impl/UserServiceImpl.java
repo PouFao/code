@@ -19,6 +19,7 @@ public class UserServiceImpl implements UserDetailsService {
         }
         //执行到这里，说明用户名username =thomas
         SecurityUser securityUser=new SecurityUser();
+        //测试测试
         return securityUser;
     }
 }
